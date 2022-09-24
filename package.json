@@ -1,0 +1,26 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "description": "http api assignment 2",
+  "main": "./server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test" : "echo \"the test has been completed\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBostonGoblin/http-api-assignment-ii.git"
+  },
+  "author": "Daniel Joseph Jr",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/TheBostonGoblin/http-api-assignment-ii/issues"
+  },
+  "homepage": "https://github.com/TheBostonGoblin/http-api-assignment-ii#readme",
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
